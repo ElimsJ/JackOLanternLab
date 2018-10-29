@@ -27,8 +27,9 @@ public class JackOLantern extends Object{
         {
             for (int j = 0; j < faceFeatures[i].length; j++)
             {
-                JackOLantern += faceFeatures[i][j] + "\n";
+                JackOLantern += faceFeatures[i][j];
             }
+            JackOLantern += "\n";
         }
         return  JackOLantern;
     }
